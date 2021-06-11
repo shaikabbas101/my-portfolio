@@ -1,0 +1,113 @@
+.about-section-heading {
+    color: #0f172a;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+  }
+  @media screen and (min-width: 768px) {
+    .about-section-heading {
+      font-size: 32px;
+    }
+  }
+  
+  .about-section-description {
+    color: #1e293b;
+    font-family: 'Roboto';
+    font-size: 12px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .about-section-description {
+      font-size: 16px;
+    }
+  }
+  
+  .education-and-skills-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .education-and-skill-heading{
+    font-weight:500;
+  }
+
+  @media screen and (min-width: 768px) {
+    .education-and-skills-container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  .education-details-list {
+    list-style-image: url('https://res.cloudinary.com/lalitha/image/upload/v1618052162/list-icon-16_mboqnl.png');
+    padding-left: 16px;
+  }
+  
+  .qualification {
+    color: #334155;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .qualification {
+      font-size: 16px;
+    }
+  }
+  
+  .education-place {
+    color: #475569;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .education-place {
+      font-size: 18px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .skills-container {
+      width: 50%;
+    }
+  }
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0px;
+  }
+  @media screen and (min-width: 768px) {
+    .skills-list {
+      flex-direction: column;
+      align-items: start;
+      max-height: 252px;
+    }
+  }
+  
+  .skill-item {
+    list-style: none;
+    margin-bottom: 5px;
+    margin-right: 8px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .skill-item {
+      margin-bottom: 24px;
+    }
+  }
+  .skill {
+    color: #ec4899;
+    background-color: #ffffff60;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 0px;
+  }
+  
