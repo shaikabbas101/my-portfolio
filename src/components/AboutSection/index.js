@@ -16,31 +16,27 @@ const skillsData = [
   },
   {
     id: 3,
-    name: 'Java',
-  },
-  {
-    id: 4,
     name: 'Python',
   },
   {
-    id: 5,
+    id: 4,
     name: 'React',
   },
   {
+    id: 5,
+    name: 'NodeJS',
+  },
+  {
     id: 6,
-    name: 'Node',
+    name: 'Bootstrap',
   },
 
   {
     id: 7,
-    name: 'Bootstrap',
+    name: 'SQL',
   },
   {
     id:8,
-    name:'SQL'
-  },
-  {
-    id:9,
     name:'Express'
   }
 ]
