@@ -85,7 +85,6 @@ class AboutSection extends Component {
       <div>
         <h1 className="about-section-heading">About</h1>
         <p className="about-section-description">
-          I started my journey in the world of computers from a young age, now
           I’m 24 years old, Graduated in Mechanical Engineering from RGMCET
           ,Neravada. later joined web development course which became my center of interest.
         </p>
